@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DF7CD9022DE78411005870D8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD9012DE78411005870D8 /* HomeView.swift */; };
+		DF7CD9062DE784D7005870D8 /* RoomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD9052DE784D7005870D8 /* RoomManager.swift */; };
+		DF7CD9552DE79339005870D8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD9542DE79339005870D8 /* SplashView.swift */; };
+		DF7CD9572DE7934E005870D8 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD9562DE7934E005870D8 /* LoginView.swift */; };
+		DF7CD9592DE7935E005870D8 /* JoinMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD9582DE7935E005870D8 /* JoinMeetingView.swift */; };
+		DF7CD95B2DE7936B005870D8 /* CreateMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95A2DE7936B005870D8 /* CreateMeetingView.swift */; };
+		DF7CD95D2DE79378005870D8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95C2DE79378005870D8 /* MeetingView.swift */; };
+		DF7CD95F2DE79386005870D8 /* ExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95E2DE79386005870D8 /* ExitView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DFCAAD1A2DE781060037ECE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,14 +35,95 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF7CD9012DE78411005870D8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DF7CD9052DE784D7005870D8 /* RoomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomManager.swift; sourceTree = "<group>"; };
+		DF7CD9092DE787D4005870D8 /* Pretendard-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.ttf"; sourceTree = "<group>"; };
+		DF7CD90A2DE787D4005870D8 /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		DF7CD90B2DE787D4005870D8 /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		DF7CD90C2DE787D4005870D8 /* Pretendard-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.ttf"; sourceTree = "<group>"; };
+		DF7CD90D2DE787D4005870D8 /* Pretendard-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.ttf"; sourceTree = "<group>"; };
+		DF7CD90E2DE787D4005870D8 /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		DF7CD90F2DE787D4005870D8 /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		DF7CD9102DE787D4005870D8 /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		DF7CD9112DE787D4005870D8 /* Pretendard-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.ttf"; sourceTree = "<group>"; };
+		DF7CD9132DE787D4005870D8 /* Pretendard-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.otf"; sourceTree = "<group>"; };
+		DF7CD9142DE787D4005870D8 /* Pretendard-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.otf"; sourceTree = "<group>"; };
+		DF7CD9152DE787D4005870D8 /* Pretendard-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.otf"; sourceTree = "<group>"; };
+		DF7CD9162DE787D4005870D8 /* Pretendard-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.otf"; sourceTree = "<group>"; };
+		DF7CD9172DE787D4005870D8 /* Pretendard-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.otf"; sourceTree = "<group>"; };
+		DF7CD9182DE787D4005870D8 /* Pretendard-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.otf"; sourceTree = "<group>"; };
+		DF7CD9192DE787D4005870D8 /* Pretendard-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.otf"; sourceTree = "<group>"; };
+		DF7CD91A2DE787D4005870D8 /* Pretendard-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.otf"; sourceTree = "<group>"; };
+		DF7CD91B2DE787D4005870D8 /* Pretendard-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.otf"; sourceTree = "<group>"; };
+		DF7CD91D2DE787D4005870D8 /* PretendardVariable.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.ttf; sourceTree = "<group>"; };
+		DF7CD9202DE787D4005870D8 /* Pretendard-Black.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.woff"; sourceTree = "<group>"; };
+		DF7CD9212DE787D4005870D8 /* Pretendard-Bold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.woff"; sourceTree = "<group>"; };
+		DF7CD9222DE787D4005870D8 /* Pretendard-ExtraBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.woff"; sourceTree = "<group>"; };
+		DF7CD9232DE787D4005870D8 /* Pretendard-ExtraLight.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.woff"; sourceTree = "<group>"; };
+		DF7CD9242DE787D4005870D8 /* Pretendard-Light.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.woff"; sourceTree = "<group>"; };
+		DF7CD9252DE787D4005870D8 /* Pretendard-Medium.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.woff"; sourceTree = "<group>"; };
+		DF7CD9262DE787D4005870D8 /* Pretendard-Regular.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.woff"; sourceTree = "<group>"; };
+		DF7CD9272DE787D4005870D8 /* Pretendard-SemiBold.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.woff"; sourceTree = "<group>"; };
+		DF7CD9282DE787D4005870D8 /* Pretendard-Thin.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.woff"; sourceTree = "<group>"; };
+		DF7CD92A2DE787D4005870D8 /* Pretendard-Black.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.subset.woff"; sourceTree = "<group>"; };
+		DF7CD92B2DE787D4005870D8 /* Pretendard-Bold.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.subset.woff"; sourceTree = "<group>"; };
+		DF7CD92C2DE787D4005870D8 /* Pretendard-ExtraBold.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.subset.woff"; sourceTree = "<group>"; };
+		DF7CD92D2DE787D4005870D8 /* Pretendard-ExtraLight.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.subset.woff"; sourceTree = "<group>"; };
+		DF7CD92E2DE787D4005870D8 /* Pretendard-Light.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.subset.woff"; sourceTree = "<group>"; };
+		DF7CD92F2DE787D4005870D8 /* Pretendard-Medium.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.subset.woff"; sourceTree = "<group>"; };
+		DF7CD9302DE787D4005870D8 /* Pretendard-Regular.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.subset.woff"; sourceTree = "<group>"; };
+		DF7CD9312DE787D4005870D8 /* Pretendard-SemiBold.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.subset.woff"; sourceTree = "<group>"; };
+		DF7CD9322DE787D4005870D8 /* Pretendard-Thin.subset.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.subset.woff"; sourceTree = "<group>"; };
+		DF7CD9342DE787D4005870D8 /* Pretendard-Black.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.woff2"; sourceTree = "<group>"; };
+		DF7CD9352DE787D4005870D8 /* Pretendard-Bold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.woff2"; sourceTree = "<group>"; };
+		DF7CD9362DE787D4005870D8 /* Pretendard-ExtraBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.woff2"; sourceTree = "<group>"; };
+		DF7CD9372DE787D4005870D8 /* Pretendard-ExtraLight.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.woff2"; sourceTree = "<group>"; };
+		DF7CD9382DE787D4005870D8 /* Pretendard-Light.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.woff2"; sourceTree = "<group>"; };
+		DF7CD9392DE787D4005870D8 /* Pretendard-Medium.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.woff2"; sourceTree = "<group>"; };
+		DF7CD93A2DE787D4005870D8 /* Pretendard-Regular.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.woff2"; sourceTree = "<group>"; };
+		DF7CD93B2DE787D4005870D8 /* Pretendard-SemiBold.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.woff2"; sourceTree = "<group>"; };
+		DF7CD93C2DE787D4005870D8 /* Pretendard-Thin.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.woff2"; sourceTree = "<group>"; };
+		DF7CD93E2DE787D4005870D8 /* Pretendard-Black.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Black.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD93F2DE787D4005870D8 /* Pretendard-Bold.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9402DE787D4005870D8 /* Pretendard-ExtraBold.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9412DE787D4005870D8 /* Pretendard-ExtraLight.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraLight.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9422DE787D4005870D8 /* Pretendard-Light.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Light.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9432DE787D4005870D8 /* Pretendard-Medium.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9442DE787D4005870D8 /* Pretendard-Regular.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9452DE787D4005870D8 /* Pretendard-SemiBold.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9462DE787D4005870D8 /* Pretendard-Thin.subset.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Thin.subset.woff2"; sourceTree = "<group>"; };
+		DF7CD9482DE787D4005870D8 /* pretendard.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pretendard.css; sourceTree = "<group>"; };
+		DF7CD9492DE787D4005870D8 /* pretendard-subset.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "pretendard-subset.css"; sourceTree = "<group>"; };
+		DF7CD94B2DE787D4005870D8 /* PretendardVariable.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PretendardVariable.woff2; sourceTree = "<group>"; };
+		DF7CD94D2DE787D4005870D8 /* pretendardvariable.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = pretendardvariable.css; sourceTree = "<group>"; };
+		DF7CD9502DE787D4005870D8 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		DF7CD9542DE79339005870D8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		DF7CD9562DE7934E005870D8 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DF7CD9582DE7935E005870D8 /* JoinMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingView.swift; sourceTree = "<group>"; };
+		DF7CD95A2DE7936B005870D8 /* CreateMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeetingView.swift; sourceTree = "<group>"; };
+		DF7CD95C2DE79378005870D8 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		DF7CD95E2DE79386005870D8 /* ExitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitView.swift; sourceTree = "<group>"; };
 		DFCAAD0C2DE781030037ECE6 /* MeetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCAAD192DE781060037ECE6 /* MeetingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCAAD232DE781060037ECE6 /* MeetingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DF7CD9532DE78897005870D8 /* Exceptions for "MeetingApp" folder in "MeetingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DFCAAD0B2DE781030037ECE6 /* MeetingApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		DFCAAD0E2DE781030037ECE6 /* MeetingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DF7CD9532DE78897005870D8 /* Exceptions for "MeetingApp" folder in "MeetingApp" target */,
+			);
 			path = MeetingApp;
 			sourceTree = "<group>";
 		};
@@ -72,9 +164,205 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF7CD9032DE78480005870D8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9132DE787D4005870D8 /* Pretendard-Black.otf */,
+				DF7CD9142DE787D4005870D8 /* Pretendard-Bold.otf */,
+				DF7CD9152DE787D4005870D8 /* Pretendard-ExtraBold.otf */,
+				DF7CD9162DE787D4005870D8 /* Pretendard-ExtraLight.otf */,
+				DF7CD9172DE787D4005870D8 /* Pretendard-Light.otf */,
+				DF7CD9182DE787D4005870D8 /* Pretendard-Medium.otf */,
+				DF7CD9192DE787D4005870D8 /* Pretendard-Regular.otf */,
+				DF7CD91A2DE787D4005870D8 /* Pretendard-SemiBold.otf */,
+				DF7CD91B2DE787D4005870D8 /* Pretendard-Thin.otf */,
+				DF7CD9542DE79339005870D8 /* SplashView.swift */,
+				DF7CD9562DE7934E005870D8 /* LoginView.swift */,
+				DF7CD9012DE78411005870D8 /* HomeView.swift */,
+				DF7CD9582DE7935E005870D8 /* JoinMeetingView.swift */,
+				DF7CD95A2DE7936B005870D8 /* CreateMeetingView.swift */,
+				DF7CD95C2DE79378005870D8 /* MeetingView.swift */,
+				DF7CD95E2DE79386005870D8 /* ExitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DF7CD9042DE7849F005870D8 /* Livekit */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9052DE784D7005870D8 /* RoomManager.swift */,
+			);
+			path = Livekit;
+			sourceTree = "<group>";
+		};
+		DF7CD9072DE784E5005870D8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9512DE787D4005870D8 /* Pretendard-1 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DF7CD9122DE787D4005870D8 /* alternative */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9092DE787D4005870D8 /* Pretendard-Black.ttf */,
+				DF7CD90A2DE787D4005870D8 /* Pretendard-Bold.ttf */,
+				DF7CD90B2DE787D4005870D8 /* Pretendard-ExtraBold.ttf */,
+				DF7CD90C2DE787D4005870D8 /* Pretendard-ExtraLight.ttf */,
+				DF7CD90D2DE787D4005870D8 /* Pretendard-Light.ttf */,
+				DF7CD90E2DE787D4005870D8 /* Pretendard-Medium.ttf */,
+				DF7CD90F2DE787D4005870D8 /* Pretendard-Regular.ttf */,
+				DF7CD9102DE787D4005870D8 /* Pretendard-SemiBold.ttf */,
+				DF7CD9112DE787D4005870D8 /* Pretendard-Thin.ttf */,
+			);
+			path = alternative;
+			sourceTree = "<group>";
+		};
+		DF7CD91C2DE787D4005870D8 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9122DE787D4005870D8 /* alternative */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		DF7CD91E2DE787D4005870D8 /* variable */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD91D2DE787D4005870D8 /* PretendardVariable.ttf */,
+			);
+			path = variable;
+			sourceTree = "<group>";
+		};
+		DF7CD91F2DE787D4005870D8 /* public */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD91C2DE787D4005870D8 /* static */,
+				DF7CD91E2DE787D4005870D8 /* variable */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		DF7CD9292DE787D4005870D8 /* woff */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9202DE787D4005870D8 /* Pretendard-Black.woff */,
+				DF7CD9212DE787D4005870D8 /* Pretendard-Bold.woff */,
+				DF7CD9222DE787D4005870D8 /* Pretendard-ExtraBold.woff */,
+				DF7CD9232DE787D4005870D8 /* Pretendard-ExtraLight.woff */,
+				DF7CD9242DE787D4005870D8 /* Pretendard-Light.woff */,
+				DF7CD9252DE787D4005870D8 /* Pretendard-Medium.woff */,
+				DF7CD9262DE787D4005870D8 /* Pretendard-Regular.woff */,
+				DF7CD9272DE787D4005870D8 /* Pretendard-SemiBold.woff */,
+				DF7CD9282DE787D4005870D8 /* Pretendard-Thin.woff */,
+			);
+			path = woff;
+			sourceTree = "<group>";
+		};
+		DF7CD9332DE787D4005870D8 /* woff-subset */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD92A2DE787D4005870D8 /* Pretendard-Black.subset.woff */,
+				DF7CD92B2DE787D4005870D8 /* Pretendard-Bold.subset.woff */,
+				DF7CD92C2DE787D4005870D8 /* Pretendard-ExtraBold.subset.woff */,
+				DF7CD92D2DE787D4005870D8 /* Pretendard-ExtraLight.subset.woff */,
+				DF7CD92E2DE787D4005870D8 /* Pretendard-Light.subset.woff */,
+				DF7CD92F2DE787D4005870D8 /* Pretendard-Medium.subset.woff */,
+				DF7CD9302DE787D4005870D8 /* Pretendard-Regular.subset.woff */,
+				DF7CD9312DE787D4005870D8 /* Pretendard-SemiBold.subset.woff */,
+				DF7CD9322DE787D4005870D8 /* Pretendard-Thin.subset.woff */,
+			);
+			path = "woff-subset";
+			sourceTree = "<group>";
+		};
+		DF7CD93D2DE787D4005870D8 /* woff2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9342DE787D4005870D8 /* Pretendard-Black.woff2 */,
+				DF7CD9352DE787D4005870D8 /* Pretendard-Bold.woff2 */,
+				DF7CD9362DE787D4005870D8 /* Pretendard-ExtraBold.woff2 */,
+				DF7CD9372DE787D4005870D8 /* Pretendard-ExtraLight.woff2 */,
+				DF7CD9382DE787D4005870D8 /* Pretendard-Light.woff2 */,
+				DF7CD9392DE787D4005870D8 /* Pretendard-Medium.woff2 */,
+				DF7CD93A2DE787D4005870D8 /* Pretendard-Regular.woff2 */,
+				DF7CD93B2DE787D4005870D8 /* Pretendard-SemiBold.woff2 */,
+				DF7CD93C2DE787D4005870D8 /* Pretendard-Thin.woff2 */,
+			);
+			path = woff2;
+			sourceTree = "<group>";
+		};
+		DF7CD9472DE787D4005870D8 /* woff2-subset */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD93E2DE787D4005870D8 /* Pretendard-Black.subset.woff2 */,
+				DF7CD93F2DE787D4005870D8 /* Pretendard-Bold.subset.woff2 */,
+				DF7CD9402DE787D4005870D8 /* Pretendard-ExtraBold.subset.woff2 */,
+				DF7CD9412DE787D4005870D8 /* Pretendard-ExtraLight.subset.woff2 */,
+				DF7CD9422DE787D4005870D8 /* Pretendard-Light.subset.woff2 */,
+				DF7CD9432DE787D4005870D8 /* Pretendard-Medium.subset.woff2 */,
+				DF7CD9442DE787D4005870D8 /* Pretendard-Regular.subset.woff2 */,
+				DF7CD9452DE787D4005870D8 /* Pretendard-SemiBold.subset.woff2 */,
+				DF7CD9462DE787D4005870D8 /* Pretendard-Thin.subset.woff2 */,
+			);
+			path = "woff2-subset";
+			sourceTree = "<group>";
+		};
+		DF7CD94A2DE787D4005870D8 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD9292DE787D4005870D8 /* woff */,
+				DF7CD9332DE787D4005870D8 /* woff-subset */,
+				DF7CD93D2DE787D4005870D8 /* woff2 */,
+				DF7CD9472DE787D4005870D8 /* woff2-subset */,
+				DF7CD9482DE787D4005870D8 /* pretendard.css */,
+				DF7CD9492DE787D4005870D8 /* pretendard-subset.css */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
+		DF7CD94C2DE787D4005870D8 /* woff2 */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD94B2DE787D4005870D8 /* PretendardVariable.woff2 */,
+			);
+			path = woff2;
+			sourceTree = "<group>";
+		};
+		DF7CD94E2DE787D4005870D8 /* variable */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD94C2DE787D4005870D8 /* woff2 */,
+				DF7CD94D2DE787D4005870D8 /* pretendardvariable.css */,
+			);
+			path = variable;
+			sourceTree = "<group>";
+		};
+		DF7CD94F2DE787D4005870D8 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD94A2DE787D4005870D8 /* static */,
+				DF7CD94E2DE787D4005870D8 /* variable */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
+		DF7CD9512DE787D4005870D8 /* Pretendard-1 */ = {
+			isa = PBXGroup;
+			children = (
+				DF7CD91F2DE787D4005870D8 /* public */,
+				DF7CD94F2DE787D4005870D8 /* web */,
+				DF7CD9502DE787D4005870D8 /* LICENSE.txt */,
+			);
+			path = "Pretendard-1";
+			sourceTree = "<group>";
+		};
 		DFCAAD032DE781030037ECE6 = {
 			isa = PBXGroup;
 			children = (
+				DF7CD9072DE784E5005870D8 /* Assets */,
+				DF7CD9042DE7849F005870D8 /* Livekit */,
+				DF7CD9032DE78480005870D8 /* Views */,
 				DFCAAD0E2DE781030037ECE6 /* MeetingApp */,
 				DFCAAD1C2DE781060037ECE6 /* MeetingAppTests */,
 				DFCAAD262DE781060037ECE6 /* MeetingAppUITests */,
@@ -195,6 +483,9 @@
 			);
 			mainGroup = DFCAAD032DE781030037ECE6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DF7CD8FA2DE782FE005870D8 /* XCRemoteSwiftPackageReference "client-sdk-swift" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DFCAAD0D2DE781030037ECE6 /* Products */;
 			projectDirPath = "";
@@ -236,6 +527,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF7CD95F2DE79386005870D8 /* ExitView.swift in Sources */,
+				DF7CD95B2DE7936B005870D8 /* CreateMeetingView.swift in Sources */,
+				DF7CD9022DE78411005870D8 /* HomeView.swift in Sources */,
+				DF7CD95D2DE79378005870D8 /* MeetingView.swift in Sources */,
+				DF7CD9062DE784D7005870D8 /* RoomManager.swift in Sources */,
+				DF7CD9572DE7934E005870D8 /* LoginView.swift in Sources */,
+				DF7CD9592DE7935E005870D8 /* JoinMeetingView.swift in Sources */,
+				DF7CD9552DE79339005870D8 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +696,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +724,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -550,6 +851,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF7CD8FA2DE782FE005870D8 /* XCRemoteSwiftPackageReference "client-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/livekit/client-sdk-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DFCAAD042DE781030037ECE6 /* Project object */;
 }
