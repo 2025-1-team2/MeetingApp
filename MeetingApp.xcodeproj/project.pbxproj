@@ -15,6 +15,7 @@
 		DF7CD95B2DE7936B005870D8 /* CreateMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95A2DE7936B005870D8 /* CreateMeetingView.swift */; };
 		DF7CD95D2DE79378005870D8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95C2DE79378005870D8 /* MeetingView.swift */; };
 		DF7CD95F2DE79386005870D8 /* ExitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7CD95E2DE79386005870D8 /* ExitView.swift */; };
+		DFF3D3F02DEF2A1200E1EBA6 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF3D3EF2DEF2A1200E1EBA6 /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		DFCAAD0C2DE781030037ECE6 /* MeetingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCAAD192DE781060037ECE6 /* MeetingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFCAAD232DE781060037ECE6 /* MeetingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF3D3EF2DEF2A1200E1EBA6 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -183,6 +185,7 @@
 				DF7CD95A2DE7936B005870D8 /* CreateMeetingView.swift */,
 				DF7CD95C2DE79378005870D8 /* MeetingView.swift */,
 				DF7CD95E2DE79386005870D8 /* ExitView.swift */,
+				DFF3D3EF2DEF2A1200E1EBA6 /* RoundedCorner.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -532,6 +535,7 @@
 				DF7CD9022DE78411005870D8 /* HomeView.swift in Sources */,
 				DF7CD95D2DE79378005870D8 /* MeetingView.swift in Sources */,
 				DF7CD9062DE784D7005870D8 /* RoomManager.swift in Sources */,
+				DFF3D3F02DEF2A1200E1EBA6 /* RoundedCorner.swift in Sources */,
 				DF7CD9572DE7934E005870D8 /* LoginView.swift in Sources */,
 				DF7CD9592DE7935E005870D8 /* JoinMeetingView.swift in Sources */,
 				DF7CD9552DE79339005870D8 /* SplashView.swift in Sources */,
